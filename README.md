@@ -38,6 +38,8 @@ Foi obtida da [KEGG: Kyoto Encyclopedia of Genes and Genomes](https://www.genome
 - sce00001.keg
 - dme00001.keg
 
+Onde os dados do organismo estão descritos hierarquicamente em nívels 'A', 'B', 'C' e 'D' sendo o mais especifico e contendo o gene e os possíveis termos KO associados.
+
 ## Resultados e Saídas
 
 Na atual forma, este programa retorna um degrade de valores de similaridade (0, 0.25, 0.50, 0.75 e 1.00), onde estão relacionados diretamente com a topologia do grafo percorrido. sendo 1.00 totalmente similar.
