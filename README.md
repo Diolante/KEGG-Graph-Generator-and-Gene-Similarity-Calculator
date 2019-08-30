@@ -20,7 +20,7 @@ Além de armazenar os termos KO associados a cada gene (se houver), entranto ain
 
 ## Organismos
 
-No desenvolvimento fora considerados quatro organismo modelos:
+No desenvolvimento fora considerados quatro organismos modelos:
 
 - *Escherichia Coli*, Bactéria
 - *Arabdopsis Thaliana*, Planta
