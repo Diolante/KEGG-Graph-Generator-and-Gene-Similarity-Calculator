@@ -41,7 +41,6 @@ for n in range(1, len(data)):       # Starts in 1 because of root node, and need
                             KO = '',
                             description = '')
         
-        
         graph.add_edge(graph.vs[n]['idg'], graph.vs[0]['idg'])
            
 # -------------------------------------------------------------------------------------------------------------
