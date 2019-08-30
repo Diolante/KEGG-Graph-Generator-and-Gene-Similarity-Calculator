@@ -27,7 +27,6 @@ graph.add_vertex(idg = 0, name = 'OBJECT', label = 'OBJECT', level = "root")
 
 for n in range(1, len(data)):       # Starts in 1 because of root node, and needs to add an 'A' em the file
     
-    
     if(data[n].startswith('A')):    # No Spaces
         placeholderA = n
         
