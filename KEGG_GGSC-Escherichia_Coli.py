@@ -208,6 +208,8 @@ def similarity(graph, from_gene, to_gene): # Implements the similarity calculus 
                     
         return 1 - similarity
     
+# -------------------------------------------------------------------------------------------------------------
+    
 def first_hundred_genes_check():
     
     for i in range(100):
