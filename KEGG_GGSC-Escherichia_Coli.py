@@ -144,7 +144,6 @@ def similarity(graph, from_gene, to_gene): # Implements the similarity calculus 
 # ------------------------------------------------- BASE ALGORITHM ----------------------------------------------------
     
     if(to_lenght and from_lenght == 1):   # If there is only a single gene with no duplicates, in to and from
-        
     
         shortests_paths_from = graph.get_all_shortest_paths(from_gene, 0, mode = 'out')
         shortests_paths_to = graph.get_all_shortest_paths(0, to_gene, mode = 'in')
