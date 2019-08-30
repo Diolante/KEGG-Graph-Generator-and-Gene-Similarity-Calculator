@@ -23,5 +23,14 @@ No desenvolvimento fora considerados quatro organismo modelos:
 - *Saccharomyces Cerevisiae*, Fungi
 - *Drosophila Melanogaster*, Inseto
 
- Gerando-se assim quatro scripts, praticamente iguais mudando apenas a expressão regular associada a captura dos genes, ou seja, uma mudança de paramêtro.
+ Gerando-se assim quatro scripts, praticamente iguais mudando apenas a expressão regular associada a captura dos genes, ou seja, uma mudança de paramêtro apenas.
+
+## Base de Dados
+
+Foi obtida da [KEGG: Kyoto Encyclopedia of Genes and Genomes](https://www.genome.jp/kegg/), quatro arquivos para cada um dos organismos.
+
+- eco00001.keg
+- ath00001.keg
+- sce00001.keg
+- dme00001.keg
 
