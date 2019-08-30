@@ -200,7 +200,6 @@ def similarity(graph, from_gene, to_gene): # Implements the similarity calculus 
             distance_between_genes = 8.0
                         
         similarity = distance_between_genes /  ((2.0 * depth_lca)  + distance_between_genes)      # Implements the calculation cited in the GFD-Net article
-            
         
         return 1 - similarity
     
