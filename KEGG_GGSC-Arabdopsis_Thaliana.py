@@ -11,11 +11,11 @@ from re import search, findall
 data = []
 placeholderA = 0
 graph = igr.Graph(directed = True) # Creates a directed igraph instance
-filename = 'ath00001.keg'   # Name of the input file
+keg_filename = 'ath00001.keg'   # Name of the input file
 
 # -------------------------------------------------------------------------------------------------------------
 
-for line in open(filename, 'r'):
+for line in open(keg_filename, 'r'):
     if(line.startswith('A') or line.startswith('B  ') or line.startswith('C    ') or line.startswith('D      ')):
         line = line.rstrip()    # To remove \n from every line
         data.append(line)
