@@ -2,10 +2,12 @@
 
 Este programa faz parte do trabalho desenvolvido para iniciação cientifica (PIBIC) de 2018-2019, apoiado pelo CNPq.
 
-## Bibliotecas Utilizadas
+## Bibliotecas e Softwares Utilizados
 
-- [IGraph for Python](https://igraph.org/python/), Ferramenta para geração de grafos.
-- [RE](https://docs.python.org/3/library/re.html), Ferramenta para uso de expressões regulares.
+- [IGraph for Python](https://igraph.org/python/), Biblioteca para geração de grafos.
+- [RE](https://docs.python.org/3/library/re.html), Biblioteca para uso de expressões regulares.
+- [Cytoscape](https://cytoscape.org/), Software para vizualização de grafos.
+
 
 ## Sobre
 
@@ -35,4 +37,14 @@ Foi obtida da [KEGG: Kyoto Encyclopedia of Genes and Genomes](https://www.genome
 - ath00001.keg
 - sce00001.keg
 - dme00001.keg
+
+## Resultados e Saídas
+
+Na atual forma, este programa retorna um degrade de valores de similaridade (0, 0.25, 0.50, 0.75 e 1.00), onde estão relacionados diretamente com a topologia do grafo percorrido. sendo 1.00 totalmente similar.
+
+Uma saída de grafo pode ser gerada, retornando um arquivo [**Nome-Organismo**].graphml, que pode ser utilizado no Cytoscape para visualização, conforme um pequeno exemplo abaixo.
+
+![Trecho do Grafo da Escherichia Coli gerado](https://i.ibb.co/zSXCW0z/l0-IsbRQ.png)
+
+
 
