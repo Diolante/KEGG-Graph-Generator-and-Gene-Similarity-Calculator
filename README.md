@@ -1,4 +1,4 @@
-# KEGG-Graph-Generator-and-Gene-Similarity-Calculator
+# KEGG Graph Generator and Gene Similarity Calculator
 
 Este programa faz parte do trabalho desenvolvido para iniciação cientifica (PIBIC) de 2018-2019, apoiado pelo CNPq.
 
