@@ -14,6 +14,8 @@ Este programa pode ser dividido em duas partes:
 - Geração do Grafo Aciclico Direcionado do Organismo.
 - Cálculo de Similaridade Semântica entre dois Genes.
 
+Além de armazenar os termos KO associados a cada gene (se houver), entranto ainda não são levados em conta no cálculo da similaridade semântica. 
+
 ## Organismos
 
 No desenvolvimento fora considerados quatro organismo modelos:
