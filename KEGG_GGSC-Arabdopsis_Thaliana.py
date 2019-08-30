@@ -11,6 +11,7 @@ from re import search, findall
 data = []
 placeholderA = 0
 graph = igr.Graph(directed = True) # Creates a directed igraph instance
+
 keg_filename = 'ath00001.keg'   # Name of the input file
 
 # -------------------------------------------------------------------------------------------------------------
